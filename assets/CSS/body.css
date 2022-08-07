@@ -1,0 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--very-dark-violet);
+}
+
+a {
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--gray);
+    font-weight: 400;
+    line-height: 1.6;
+}

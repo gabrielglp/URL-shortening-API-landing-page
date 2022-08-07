@@ -1,0 +1,153 @@
+header {}
+
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.header__flex {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.header__textbox {
+    flex: 0 0 50%;
+    padding: 0 5vw 0 0;
+    margin-top: -9rem;
+}
+
+.header__textbox *:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.header__text {
+    font-size: 1.6rem;
+}
+
+.header__photo {
+    flex: 0 0 50%;
+}
+
+nav {
+    padding: 2rem 0;
+}
+
+.nav__list {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.nav__list *:not(:last-child) {
+    margin-right: 3rem;
+}
+
+.nav__link {
+    font-size: 1.5rem;
+    color: var(--gray);
+}
+
+.nav__link:hover {
+    color: var(--very-dark-violet);
+    transition: all .5s;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.header__btn {
+    font-size: 1.4rem;
+    display: inline-block;
+    font-weight: 700;
+    margin-left: auto;
+}
+
+.btn__light {
+    margin-right: 3rem;
+}
+
+.btn__light:hover {
+    color: var(--very-dark-violet);
+    transition: all .5s;
+}
+
+.btn__cyan {
+    font-size: 1.4rem;
+    padding: .5rem 1.8rem;
+    background-color: var(--cyan);
+    color: var(--color-white);
+    border-radius: 10rem;
+}
+
+.btn__cyan:hover {
+    color: var(--cyan);
+    background-color: var(--very-dark-blue);
+}
+
+.btn__shorten {
+    padding: 1rem 3.5rem;
+}
+
+.heading-primary {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.shorten {
+    padding: 5rem 0;
+}
+
+.shorten__content {
+    background-color: var(--dark-violet);
+    width: 90%;
+    padding: 4rem 4rem;
+    border-radius: 1rem;
+}
+
+.shorten__flex {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    flex: 0 0 80%;
+}
+
+.form__input {
+    display: block;
+    width: 95%;
+    padding: 2rem 2rem;
+    border: none;
+    outline: none;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    font-family: inherit;
+}
+
+.features {
+    padding: 5rem 0 20rem 0;
+    margin-top: -.1rem;
+    background-color: var(--gray);
+}
+
+.features__textbox {
+    text-align: center;
+    padding: 1rem 30vw;
+    color: var(--very-dark-blue);
+}
+
+.features__textbox *:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.features__secondary {
+    font-size: 1.6rem;
+    margin-bottom: 8rem;
+}
+
+.heading-secondary {
+    font-size: 4rem;
+    font-weight: 700;
+}
